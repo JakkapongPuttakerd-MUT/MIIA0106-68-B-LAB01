@@ -19,3 +19,65 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+
+ /*#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	int age;
+	float height;
+	string name;
+	string stdid;
+	float gpa;
+	cout << "Enter Student ID: ";
+	cin >> stdid;
+	cout << "Enter Name: ";
+	cin >> name;
+	cout << "Enter Age: ";
+	cin >> age;
+	cout << "Enter Height (cm): ";
+	cin >> height;
+	cout << "Enter GPA: ";
+	cin >> gpa;
+
+	cout << "Student Profile" << endl;
+	cout << "-----------------------" << endl;
+	cout << "Student ID: " << stdid << endl;
+	cout << "Name: " << name << endl;
+	cout << "GPA : " << gpa << endl;
+	cout << "Age : " << age << endl;
+	cout << "Height: " << height << " cm" << endl;
+
+	return 0;
+}*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+	string itemName;
+	float price;
+	int qty;
+	float total;
+	// ?????????????
+	cout << "Enter item name: ";
+	cin >> itemName;
+	cout << "Enter price: ";
+	cin >> price;
+	// ???? ????
+	cout << "Enter quantity: ";
+	cin >> qty;
+	// ? ???????????
+	total = price * qty;
+	// ???????????
+	cout << endl;
+	cout << "------- Receipt -------" << endl;
+	cout << "Item: " << itemName << endl;
+	cout << "Price: " << price << endl;
+	cout << "Quantity: " << qty << endl;
+	cout << "Total: " << total << endl;
+	cout << "------------------------" << endl;
+	return 0;
+}
